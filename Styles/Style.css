@@ -8,14 +8,15 @@
     font-family: "Inter", sans-serif;
     text-transform:capitalize;
 }
+
 body{
     font-family: "Inter", sans-serif;
     background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0)300%);
 
 }
 .banner-section{
-    max-width: 1440px;
-    min-height:650px;
+    width: 1440px;
+    height:650px;
     color:white;
     display:flex;
     justify-content:space-around;
@@ -63,8 +64,7 @@ letter-spacing: 0.5px;
 margin-top: 1.8rem;
 }
 .btn-club{
-    width:180px;
-height:45px;
+    padding: 10px 35px 10px 35px;
 color: #f0f8ff;
 margin-top: 2rem;
 font-size: 18px;
@@ -73,8 +73,7 @@ border:1px solid rgb(255, 255, 255);
 border-radius:42px;
 }
 .btn-app{
-    width:180px;
-    height:45px;
+    padding: 10px 35px 10px 35px;
     margin-top: 2rem;
     color: #f0f8ff;
     font-size: 18px;
@@ -84,7 +83,7 @@ border-radius:42px;
 
 }
 .style-image{
-    position: absolute;
+  position: absolute;
 width:400px;
 height: 510px;
 left: 950px;
@@ -92,21 +91,21 @@ top: 120px;
     
 }
 .main-section{
-   
-/* background: rgb(185, 185, 185); */
-    position: absolute;
+     /* position: absolute; */
     width: 1044px;
     height: 400px;
-    left: 198px;
+    /* left: 198px; */
     margin-top: 60px;
+    margin-left: 13rem;
+    
     
 }
 .main-section h1{
  color: rgb(255, 255, 255);
 font-size: 48px;
 font-weight: 900;
-/* line-height: 120%; */
-letter-spacing: 0%;
+line-height: 120%;
+/* letter-spacing: 0%; */
 text-align:center;
 }
 .main-section p{
@@ -122,7 +121,7 @@ text-align: center;
     display: flex;
  justify-content:space-between;
 margin: 58px 0px;
-overflow: hidden;
+/* overflow: hidden; */
   
  
 }
@@ -146,3 +145,62 @@ border-radius: 100%;
             height: 180px;
        border-radius: 100%
      }
+     .challege-part{
+        width: 1260px;
+        height: 320px;
+        background-color:  rgb(46, 45, 45);;
+        margin-top:1rem;
+        margin-left:9rem;
+        margin-bottom:1rem;
+        border-radius: 18px;
+        /* background-image: url(/images/run.jpg); */
+     }
+     .challege-part h2{
+ color: rgb(255, 255, 255);
+font-size:45px;
+font-weight: 750;
+line-height: 120%;
+margin-left: 2rem;
+padding-top: 2.5rem;
+ }
+ .challege-part p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 10px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.3px;
+margin-left: 2rem;
+margin-top:10px;
+ }
+ .btn-join{
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+padding: 10px 35px 10px 35px;
+margin-left: 34px;
+margin-top: 1rem;
+ }
+
+.BMI-section{
+    width: 671px;
+    height: 120px;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+  background: #100f0f;
+  border-radius: 20px;
+    
+}
+.BMI-section h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px;
+}
+.BMI-section p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin: 20px;
+}
